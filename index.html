@@ -13,7 +13,7 @@
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
     </nav>
-    <div class="mt-16 flex items-center justify-center pb-10">
+    <div class="mt-12 flex items-center justify-center pb-10">
         <div>
             <h1 class="font-bold text-2xl">Welcome <span class="text-red-700"> | </span><span class="text-red-500"> Pizza Palace</span></h1>
             <p class="mt-5 w-1/2 mb-5 text-lg">We've never had to change our recipe. Because it never sucked.</p>
@@ -80,7 +80,24 @@
             </div>
         </div>
     </div>
-    <div class="bg-blue-300"></div>
-    <div class="mt-56"></div>
+    <footer class="bg-blue-300 flex justify-between mt-8 p-8">
+        <div>
+            <h4 class="font-bold text-3xl mb-5">Contact Us</h4>
+            <h5 class="mb-4">Shoot us a message</h5>
+            <form class="flex flex-col">
+                <input type="text" placeholder="Your email" class="mb-4 border-0 rounded-xl py-3 pl-4">
+                <textarea placeholder="Your message" id="" cols="30" rows="5" class="border-0 rounded-xl pl-4"></textarea>
+                <button class="bg-red-400 mt-5 rounded w-2/5 p-3 text-white">Send</button>
+            </form>
+        </div>
+        <div>
+            <h4 class="text-2xl font-bold mb-3 mt-8">Our socials</h4>
+            <h6 class="mb-1 text-lg">Facebook</h6>
+            <h6 class="mb-1 text-lg">Instagram</h6>
+            <h6 class="mb-1 text-lg">Linkedin</h6>
+            <h6 class="mb-1 text-lg">Twitter</h6>
+            <span class="text-red-600 text-lg font-bold mt-8 block">&copy;2021 - Pizza Palace</span>
+        </div>
+    </footer>
 </body>
 </html>
