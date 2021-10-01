@@ -8,52 +8,52 @@
 </head>
 <body class="bg-red-200">
     <nav class="flex justify-between mx-10 mt-5">
-        <div class="flex items-center"><img class="w-1/5" src="./img/pizza-svgrepo-com.svg" alt=""><span class="text-red-700 font-bold text-2xl">Pizza Palace</span></div>
+        <div class="flex items-center"><img class="w-1/5" src="./img/pizza-svgrepo-com.svg" alt=""><span class="text-red-700 font-bold md:text-2xl xs:text-lg">Pizza Palace</span></div>
         <svg class="w-12" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
     </nav>
-    <div class="mt-12 flex items-center justify-center pb-10">
-        <div>
-            <h1 class="font-bold text-2xl">Welcome <span class="text-red-700"> | </span><span class="text-red-500"> Pizza Palace</span></h1>
-            <p class="mt-5 w-1/2 mb-5 text-lg">We've never had to change our recipe. Because it never sucked.</p>
+    <div class="mt-12 flex xs:items-right xs:justify-center pb-10 px-10 xs:flex-col md:flex-row">
+        <div class="mb-8 xs:text-center md:text-left">
+            <h1 class="font-bold text-2xl xs:text:center md:text-left">Welcome <span class="text-red-700"> | </span><span class="text-red-500"> Pizza Palace</span></h1>
+            <p class="mt-5 w-1/2 mb-5 text-lg xs:w-full">We've never had to change our recipe. Because it never sucked.</p>
             <a href="#" class="bg-red-400 p-2 text-white font-bold">Get started</a>
         </div>
-        <img class="w-96 h-72 rounded-lg" src="./img/4274048cd5f17c49dfee280f77a3739d_Cheese-Pizza_HB-2_1500_700.jpg" alt="pizza">
+        <img class="md:w-96 md:h-72 sm:w-72 sm:h-56 rounded-lg block mx-auto" src="./img/4274048cd5f17c49dfee280f77a3739d_Cheese-Pizza_HB-2_1500_700.jpg" alt="pizza">
     </div>
     <div class="bg-white">
         <h2 class="pt-16 pb-8 font-bold text-center text-2xl">Testimonials</h2>
         <p class="text-center text-xl pb-16 w-1/2 mx-auto">Don't take our words for it. Read what our regular customers have to say about our products and services.</p>
     </div>
-    <div class="bg-blue-300 grid grid-cols-3 gap-4 p-8">
+    <div class="bg-blue-300 grid lg:grid-cols-3 gap-4 p-8 sm:grid-cols-1">
         <div>
-            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto" alt="">
+            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto object-cover" alt="">
             <h4 class="font-bold text-lg text-center">John Doe</h4>
             <p class="w-1/2 mx-auto text-center">"Amzing pizza! Family friendly and super cool design."</p>
         </div>
         <div>
-            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto" alt="">
+            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto object-cover" alt="">
             <h4 class="font-bold text-lg text-center">John Doe</h4>
             <p class="w-1/2 mx-auto text-center">"Amzing pizza! Family friendly and super cool design."</p>
         </div>
         <div>
-            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto" alt="">
+            <img src="./img/getty_481292845_77896.jpg" class="w-44 h-44 rounded-full block mx-auto object-cover" alt="">
             <h4 class="font-bold text-lg text-center">John Doe</h4>
             <p class="w-1/2 mx-auto text-center">"Amzing pizza! Family friendly and super cool design."</p>
         </div>
     </div>
     <div class="bg-white py-16">
-        <div class="bg-blue-300 w-2/5 mx-auto py-8 border rounded-2xl">
+        <div class="bg-blue-300 mx-auto py-8 border rounded-2xl xs:w-full md:w-3/5">
             <h3 class="text-center font-bold text-2xl">Subscribe to our newsletter</h3>
             <form class="text-center mt-6">
-                <input type="text" placeholder="Enter your email" class="p-4 rounded-2xl">
+                <input type="text" placeholder="Enter your email" class="p-4 xs:w-3/4 xs:mb-7 rounded-2xl">
                 <button class="bg-red-500 p-4 rounded-full text-white text-lg ml-3">Subscribe</button>
             </form>
         </div>
     </div>
     <div>
         <h3 class="font-bold text-3xl text-center py-8">Gallery</h3>
-        <div class="grid grid-cols-3 gap-16 px-16">
+        <div class="grid md:grid-cols-3 gap-16 px-16 sm:grid-cols-2">
             <div class="bg-white">
                 <img src="./img/89488586-food-photography-art-pizza-serving-at-restaurant-leisure-concept.jpg" alt="">
                 <p class="text-center text-xl py-5">Meal on the table</p>
@@ -80,7 +80,7 @@
             </div>
         </div>
     </div>
-    <footer class="bg-blue-300 flex justify-between mt-8 p-8">
+    <footer class="bg-blue-300 flex justify-between mt-8 p-8 xs:flex-col md:flex-row">
         <div>
             <h4 class="font-bold text-3xl mb-5">Contact Us</h4>
             <h5 class="mb-4">Shoot us a message</h5>
